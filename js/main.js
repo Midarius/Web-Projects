@@ -1,5 +1,5 @@
 window.onload = function() {
-    var canvas = document.createComment("canvas");
+    var canvas = document.createElement("canvas");
     document.body.appendChild(canvas);
 
     if (canvas.getContext("2d")) {
